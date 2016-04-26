@@ -7,6 +7,7 @@ public class Dog {
 
 	public Dog() {
 		name = "your Dog";
+		age = 0;
 	}
 
 	public Dog(String name) {
