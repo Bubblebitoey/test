@@ -15,6 +15,11 @@ public class Dog {
 		this.age = 0;
 	}
 
+	public Dog(int age) {
+		name = "your Dog";
+		this.age = age;
+	}
+
 	public Dog(String name, int age) {
 		this.age = age;
 		this.name = name;
