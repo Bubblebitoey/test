@@ -1,28 +1,33 @@
 /**
  * Created by kamontat on 26/4/59.
  */
-public class Dog {
+public class Cat {
 	private String name;
 	private int age;
 
-	public Dog() {
-		name = "your Dog";
+	public Cat() {
+<<<<<<< HEAD
+		name = "your Cat";
 		age = 0;
+=======
+		name = "My Cat";
+>>>>>>> 27878866459230902ae8745579f75585ac555f81
 	}
 
-	public Dog(String name) {
+	public Cat(String name) {
 		this.name = name;
 		this.age = 0;
 	}
 
-	public Dog(int age) {
-		name = "your Dog";
-		this.age = age;
-	}
-
-	public Dog(String name, int age) {
+	public Cat(String name, int age) {
+<<<<<<< HEAD
 		this.age = age;
 		this.name = name;
+	}
+=======
+
+		this.name = name;
+		this.age = age;
 	}
 
 	public String getName() {
@@ -43,7 +48,7 @@ public class Dog {
 
 	@Override
 	public String toString() {
-		return "Dog{" + "name='" + name + '\'' + ", age=" + age + '}';
+		return "Cat{" + "name='" + name + '\'' + ", age=" + age + '}';
 	}
+>>>>>>> 27878866459230902ae8745579f75585ac555f81
 }
-
